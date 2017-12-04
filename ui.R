@@ -5,7 +5,7 @@
 # http://shiny.rstudio.com
 #
 
-shinyUI(fluidPage(
+shinyUI(fluidPage(theme = "bootstrap.css",
   # Application title
   titlePanel(strong("Water Quality Analysis")),
   helpText("The purpose of this application is to provide 
